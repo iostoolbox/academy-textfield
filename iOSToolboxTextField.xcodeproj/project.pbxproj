@@ -21,6 +21,8 @@
 		D2FC59C518E094F400F406CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FC59A718E094F400F406CD /* UIKit.framework */; };
 		D2FC59CD18E094F400F406CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2FC59CB18E094F400F406CD /* InfoPlist.strings */; };
 		D2FC59CF18E094F400F406CD /* iOSToolboxTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FC59CE18E094F400F406CD /* iOSToolboxTextFieldTests.m */; };
+		D2FC59DF18E0969E00F406CD /* _emailTextField.png in Resources */ = {isa = PBXBuildFile; fileRef = D2FC59DD18E0969E00F406CD /* _emailTextField.png */; };
+		D2FC59E018E0969E00F406CD /* _emailTextField@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2FC59DE18E0969E00F406CD /* _emailTextField@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D2FC59CA18E094F400F406CD /* iOSToolboxTextFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSToolboxTextFieldTests-Info.plist"; sourceTree = "<group>"; };
 		D2FC59CC18E094F400F406CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2FC59CE18E094F400F406CD /* iOSToolboxTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSToolboxTextFieldTests.m; sourceTree = "<group>"; };
+		D2FC59DD18E0969E00F406CD /* _emailTextField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _emailTextField.png; sourceTree = "<group>"; };
+		D2FC59DE18E0969E00F406CD /* _emailTextField@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_emailTextField@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		D2FC59A918E094F400F406CD /* iOSToolboxTextField */ = {
 			isa = PBXGroup;
 			children = (
+				D2FC59D818E0955600F406CD /* Images */,
 				D2FC59B218E094F400F406CD /* AppDelegate.h */,
 				D2FC59B318E094F400F406CD /* AppDelegate.m */,
 				D2FC59B518E094F400F406CD /* Main.storyboard */,
@@ -150,6 +155,15 @@
 				D2FC59CB18E094F400F406CD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2FC59D818E0955600F406CD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D2FC59DD18E0969E00F406CD /* _emailTextField.png */,
+				D2FC59DE18E0969E00F406CD /* _emailTextField@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FC59DF18E0969E00F406CD /* _emailTextField.png in Resources */,
 				D2FC59BC18E094F400F406CD /* Images.xcassets in Resources */,
 				D2FC59AE18E094F400F406CD /* InfoPlist.strings in Resources */,
+				D2FC59E018E0969E00F406CD /* _emailTextField@2x.png in Resources */,
 				D2FC59B718E094F400F406CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
